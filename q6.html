@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Q6: apresentar a data em diversos formatos</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script>
+        hoje = new Date();
+        document.write(`data e hora completa: ${hoje}`);
+        document.write(`<br> apenas o dia: ${hoje.getDate()}`);
+        document.write(`<br> apenas o mês (0 a 11): ${hoje.getMonth()}`);
+        document.write(`apenas o ano: ${hoje.getFullYear()}`);
+        document.write(`<br> apenas o dia da semana (0 a 6): ${hoje.getDay()}`);
+        document.write(`<br> apenas a hora e minutos: ${hoje.getHours()} : ${hoje.getMinutes()}`);
+    </script>
+</head>
+
+<body>
+
+</body>
+
+</html>

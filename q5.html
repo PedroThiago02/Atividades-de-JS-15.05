@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Q5: Apresentar os caracteres de uma string e suas posições</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+
+<body>
+    <script>
+        var frase = "Ola, tudo bem";
+        document.write(`${frase} <br>`);
+        tamanho = frase.length;
+        for (var i = 0; i < tamanho;) {
+            document.write(`<br> Caractere na posição ${i} : ${frase.charAt(i)}`);
+            i++;
+        }
+        document.write(`<br><br> Primeiro caractere: ${frase.charAt(0)} <br />`);
+        document.write(`ultimo caractere ${frase.charAt(frase.length - 1)}`)
+    </script>
+</body>
+
+</html>
